@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    color: #7D7875;
+}
+body{
+    background-color: #F3E5D8;
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    h1, h2{
+        font-family: "Young Serif", serif;
+    }
+    
+    
+}
+
+img{
+    width: 600px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+.container{
+    background-color: white;
+    width: 650px;
+    margin: 50px 100px 30px 100px;
+    line-height: 2;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 300px;
+    height: 100%;
+    
+}
+.textcon{
+    text-align: start;
+    padding: 0px 30px;
+    margin: 10px;
+    h1{
+        margin-bottom: 10px;
+        color: black;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+}
+
+.prep{
+    background-color: #FFF7FC;
+    padding: 0px 20px;
+    border-radius: 10px;
+    h2{
+        color: #672543;
+    }
+    ul{
+        margin: 0px 20px;
+    }
+}
+
+.ingredients{
+    margin: 20px 0px 30px 0;
+    h2{
+        color: #774438;
+    }
+    ul{
+        margin-left: 25px;
+    }
+}
+
+.instr{
+    margin: 20px 0px 30px 0px;
+    margin-bottom: 20px;
+}
+
+.instr h2{
+    color: #774438;
+}
+
+.instr ol{
+    margin-left: 25px;
+}
+
+.persona{
+    text-align: center;
+    margin-top: 0;
+    color: black;
+    padding: 0px 0px 30px 0px;
+    a{
+        color: blue;
+    }
+}
+
+.nutri{
+    margin: 20px 0 30px 0;
+}
+
+.nutri h2{
+    color: #774438;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    /* column-gap: 10px; */
+}
+main ul{
+    list-style: none;
+    
+}
+
+main ul li{
+    border-bottom: 1px solid #7D7875;
+    padding: 10px;
+}
+
+.two li{
+    color: #774438;
+}
+.no-border{
+    border: 0;
+    padding-bottom: 20px;
+}
+.border{
+    border: 1px solid #7D7875;
+}
